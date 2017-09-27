@@ -272,6 +272,7 @@ def main(in_book_list,version):
     res_df = res_df.drop_duplicates()
     # 插入新的一列:是否需要
     res_df.insert(0,'是否需要','')
+    
     res_df.to_csv('cadal-'+version+'.csv',header=['是否需要','id','书名','作者','出版社','出版日期','关键字','描述','其他','类型'],index=False,encoding='UTF-8')
     print('已写入本地')
 
