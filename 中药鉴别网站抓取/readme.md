@@ -28,8 +28,8 @@
 
 直接在控制台执行
 
-···
+```
 python main.py
-···
+```
 
 待抓取结束后，会在当前目录下生成data.csv文件，保存了title和对应content内容
