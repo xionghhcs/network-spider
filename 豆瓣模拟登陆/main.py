@@ -29,8 +29,8 @@ def getCaptchaImage(html):
 post_data={
     'source':'None',
     'redir':'https://www.douban.com',
-    'form_email':'xllxhh@126.com',
-    'form_password':'xhh1314521',
+    'form_email':'*******',
+    'form_password':'*********',
     'captcha-solution':'stiff',
     'captcha-id':'76KRnOW3uaf4egLb4YXiqzUW:en',
     'login':'登录'
